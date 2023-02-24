@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<section>
+		<h1>인사말을 몇 번 듣고 싶으신가요?</h1>
+		<ul>
+			<li>
+				<a href="/hello?">서버 기본값</a>
+			</li>
+			<li>
+				<a href="/hello?c=5">5번</a>
+			</li>
+			<li>
+				<a href="/hello?c=10">10번</a>
+			</li>
+			<li>
+				<a href="/hello?c=100">백번</a>
+				</li>
+		</ul>
+		<form action="hello">
+			<label>기타
+			<input type="number"  name="c" placeholder="원하는 숫자를 입력하세요"/>
+			<input type="submit" value="전송" />	
+			</label>
+		</form>
+	</section>
+</body>
+</html>
